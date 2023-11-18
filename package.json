@@ -1,0 +1,23 @@
+{
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "latest",
+		"@sveltejs/kit": "latest",
+		"autoprefixer": "latest",
+		"daisyui": "latest",
+		"postcss": "latest",
+		"svelte": "latest",
+		"svelte-check": "latest",
+		"tailwindcss": "latest",
+		"tslib": "latest",
+		"typescript": "latest",
+		"vite": "latest"
+	},
+	"type": "module"
+}
